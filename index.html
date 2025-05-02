@@ -2,41 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My CV</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jane Doe – CV</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Jane Doe</h1>
-      <p>Web Developer | janedoe@email.com | github.com/janedoe</p>
-    </header>
-
-    <section>
-      <h2>Profile</h2>
-      <p>Motivated developer with experience in front-end and back-end technologies.</p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
+  <div class="layout">
+    <nav class="sidebar">
+      <h2>Jane Doe</h2>
       <ul>
-        <li>HTML, CSS, JavaScript</li>
-        <li>React, Node.js</li>
-        <li>Git, Docker</li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <section>
-      <h2>Experience</h2>
-      <h3>Frontend Developer – ExampleCorp</h3>
-      <p>2021–2024 | Developed and maintained web apps using React and REST APIs.</p>
-    </section>
+    <main class="content">
+      <section id="profile">
+        <h1>Profile</h1>
+        <p>Passionate full-stack developer with 3+ years of experience building web applications.</p>
+      </section>
 
-    <section>
-      <h2>Education</h2>
-      <p>B.Sc. Computer Science – University XYZ (2017–2021)</p>
-    </section>
+      <section id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React, Node.js, Express</li>
+          <li>Git, Docker, Linux</li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h1>Experience</h1>
+        <h3>Web Developer at ExampleCorp</h3>
+        <p>2021–2024 – Built and maintained scalable frontends in React, improved performance by 30%.</p>
+      </section>
+
+      <section id="education">
+        <h1>Education</h1>
+        <p>B.Sc. in Computer Science, University XYZ (2017–2021)</p>
+      </section>
+
+      <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: janedoe@email.com</p>
+        <p>GitHub: github.com/janedoe</p>
+      </section>
+    </main>
   </div>
 </body>
 </html>
